@@ -38,7 +38,6 @@ nav {
 .nav-list {
     list-style-type: none;
     display: inline-block;
-    margin: 0 25px;
 }
 
 nav::before {
@@ -51,7 +50,7 @@ nav::before {
 
 .nav-list-item {
     display: inline;
-    margin: 0 40px;
+    margin-left: 80px;
     font-size: 18px;
     color: #929291;
     font-weight: 500;
@@ -111,7 +110,7 @@ nav::before {
 }
 
 .btn {
-    padding: 20px 85px;
+    padding: 20px 60px;
     background-color: #333333;
     color: #FFFFFF;
     font-size: 22px;
@@ -130,7 +129,7 @@ nav::before {
 .path {
     display: flex;
     flex-direction: column;
-    gap: 45px;
+    gap: 50px;
     font-size: 1.2rem;
     color: #5d5d5d;
     align-self: flex-start;
@@ -169,9 +168,14 @@ nav::before {
     font-size: 20px;
 }
 
+.quote {
+    margin-left: 150px;
+}
+
 .quote p {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .arrow {
